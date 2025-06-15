@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,84 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header class="bg section">
-            <h1>Когнитивные<br> искажения<br> в программировании</h1>
-            <img class="header-img" src="/src/images/main.png" alt="image-header">
-        <div class="columns-2">
-            <p class="text">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-    
-             <div>
-                <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
-                Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                <a class="button" rel="stylesheet" href="#">Подробнее </a> 
+    <header class="header section bg bg-light">
+        <div class="container">
+            <img class="header__img header-img" src="/src/images/main.png" alt="image-header">
+            <h1 class="header__title">
+                <span class="cl-primary">Когнитивные<br> искажения</span><br> в программировании
+            </h1>
+            <div class="columns-2">
+                <p class="text">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей
+                    продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем
+                    малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к
+                    сожалению, нет.</p>
+                <div>
+                    <p class="text">
+                        Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
+                        продуктивности, багам и бесконечному разочарованию.
+                        Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
+                        сломать и цикл, а остатки нейтрализовать.
+                    </p>
+                    <a class="button" rel="stylesheet" href="#">Подробнее</a>
+                </div>
             </div>
-        </div>    
-    
+        </div>
     </header>
+
     <main>
-        <section></section>
+        <section class="section">
+            <div class="container">
+                <h2 class="mb-30 ta-c">Что же это такое,<br><span class="cl-primary">когнитивные искажения?</span></h2>
+                <p class="mb-30 text ta-c">Что такое когнитивные искажения. Petrovna Channel</p>
+                <a href="https://www.youtube.com/watch?feature=shared&v=jie9AizBqss"> <img class="preview-img filter"
+                        src="/src/images/preview.png" alt=""></a>
+            </div>
+        </section>
+
+        <section class="section navigation__background navigation" id="navigation">
+            <div class="container">
+                <div class="navigation__grid">
+                    <h2 class="navigation__title cl-white">
+                        <span class="cl-primary">5 когнитивных искажений</span>
+                        о существовании которых стоит помнить
+                    </h2>
+                    <a href="#" class="navigation__item">
+                        <p class="navigation__number">1</p>
+                        <h3 class="cl-primary navigation__item-title">Эффект ИКЕА</h3>
+                        <p class="text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения
+                            других.</p>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <p class="navigation__number">2</p>
+                        <h3 class="cl-primary navigation__item-title">Преждевременная оптимизация</h3>
+                        <p class="text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
+                        </p>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <p class="navigation__number">3</p>
+                        <h3 class="cl-primary navigation__item-title">Искажение новизны</h3>
+                        <p class="text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и
+                            недооцениваете более старые.</p>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <p class="navigation__number">4</p>
+                        <h3 class="cl-primary navigation__item-title">Гиперболическое обесценивание</h3>
+                        <p class="text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
+                            недоступную сейчас, но доступную в будущем.</p>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <p class="navigation__number">5</p>
+                        <h3 class="cl-primary navigation__item-title">Ошибка планирования</h3>
+                        <p class="text">Неправильно рассчитывать время необходимое для завершения задачи</p>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 
 </body>
+
 </html>
