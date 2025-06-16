@@ -30,6 +30,7 @@ h2,
 h3 {
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
+  font-weight: normal;
 }
 
 h1 {
@@ -68,10 +69,18 @@ h3 {
   opacity: 0.1;
   position: absolute;
   inset: 0;
+  z-index: -1;
 }
 
 .bg-light {
   background-color: var(--cl-light);
+  z-index: -2;
+}
+
+.bg-brown {
+  background-color: var(--brown);
+  z-index: -2;
+
 }
 
 .mb-30 {
@@ -88,6 +97,15 @@ h3 {
 
 .cl-white {
   color: var(--cl-white);
+}
+
+.cl-white-50 {
+  color: var(--cl-white-50)
+}
+
+.cl-dark-50 {
+  color: var(--cl-dark-50);
+
 }
 
 .header__title {
@@ -172,4 +190,90 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+.cognitiv-dist {
+  font: normal 24px 'Neucha', sans-serif;
+}
+
+
+.cognitiv-dist-descript-cl-drk {
+  font: 34px 'Neucha', sans-serif;
+  color: var(--cl-dark);
+}
+
+.cognitiv-dist-descript-cl-li {
+  font: 34px 'Neucha', sans-serif;
+  color: var(--cl-white);
+}
+
+.cognitiv__2-header {
+  font: bold 14px 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.cognitiv__2-header-cl-dr {
+  background-color: var(--brown);
+  color: var(--cl-white);
+}
+
+.cognitiv__2-header-cl-li {
+  background-color: var(--cl-white);
+  color: var(--brown);
+}
+
+.cognitiv__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.bg-footer {
+  background-color: var(--cl-primary-dark);
+}
+
+.footer-grid {
+  align-items: center;
+  padding: 40px 55px;
+}
+
+.font-email {
+  display: block;
+  font: 18px 'Open Sans', sans-serif;
+  color: var(--cl-white);
+  margin-bottom: 8px;
+}
+
+.input {
+  height: 50px;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.form-button {
+  height: 50px;
+  width: 70px;
+  margin: 0;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+.form-rules {
+  font: normal 12px 'Open Sans', sans-serif;
+  color: var(--cl-white);
+}
+
+.contact {
+  margin-top: 60px;
+  font: 14px 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.contact > * {
+  margin-bottom: 16px;
 }
